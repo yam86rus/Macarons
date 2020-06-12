@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(153deg, #168cc4,#69cfff) fixed;
+}
+
+/* Header */
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top{
+    margin-top: 43px;
+}
+
+/* logo */
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-center;
+    
+}
+
+.logo__inner{
+    display: flex;
+}
+.logo__img{
+    width: 47px;
+    height: 47px;
+}
+.logo__text{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    color: #014267;
+    padding-left: 12px;
+}
+.logo__text:hover{
+    color: #fff;
+}
+
+/* Social */
+.social__img{
+    height: 28px;
+    width: 28px;
+    fill: #014267;
+    position: relative;
+    top: 10px; 
+    margin-left: 11px;
+    transition: fill .2s ease-in-out;
+}
+
+
+.social__img:hover{
+    fill: #fff;
+    cursor: pointer;
+}
+
+/* /Social */
+
+/* Center */
+
+.leftMacaron{
+    width: 179px;
+    position: relative;
+}
+
+.center__text{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.center__text--1{
+    font-size: 53px;  
+}
+
+
+.centerMacaron{
+    width: 570px;
+}
