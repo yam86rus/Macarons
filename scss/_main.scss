@@ -1,6 +1,4 @@
 
-@import '_@media320px.scss';
-
 * {
     margin: 0;
     padding: 0;
@@ -44,25 +42,22 @@ body {
 // === Logo ===
 .logo {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-center;
-
     &__inner {
         display: flex;
+        flex-wrap: wrap;
     }
-
     &__img {
         width: 47px;
         height: 47px;
     }
-
     &__text {
         font-family: 'Bebas Neue', cursive;
         font-size: 36px;
         color: #014267;
         padding-left: 12px;
         transition: color .5s ease-in-out;
-
         &:hover {
             color: #fff;
         }
@@ -79,7 +74,6 @@ body {
     top: 10px;
     margin-left: 11px;
     transition: fill .2s ease-in-out;
-
     &:hover {
         fill: #fff;
         cursor: pointer;
@@ -90,25 +84,26 @@ body {
 .content {
     &__inner {
         display: flex;
-        justify-content: space-between;
+        flex: 1;
+        flex-wrap: wrap;
         margin-top: 50px;
     }
-
     &__leftMacaron {
-        width: 179px;
-        height: 135px;
-        position: relative;
-        left: -100px;
+        width:12%;
+        // position: relative;
+        // left: -100px;
+        &-img{
+            height: 135px;
+        }
     }
 
     &__text {
+        width: 40%;
         text-align: center;
         line-height: 80px;
         font-family: "Tahoma";
         color: #fff;
         text-transform: uppercase;
-        position: relative;
-        left: -100px;
 
         &--1 {
             font-size: 53px;
@@ -132,12 +127,12 @@ body {
     }
 
     &__rightMacaron {
-        margin-top: auto;
+        width: 48%;
 
         &-img {
-            position: relative;
-            top: 50px;
-            left: -100px;
+            // position: relative;
+            // top: 50px;
+            // left: -100px;
             width: 770px;
             height: 359px;
         }
