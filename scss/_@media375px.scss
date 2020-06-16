@@ -1,10 +1,15 @@
- @media (max-width:  320px) {
+@media (max-width: 375px) {
 
     body {
-        background: linear-gradient(153deg, #12bddb, #0921a8) fixed;
+        background: linear-gradient(153deg, #38b82c, #1ba9c2) fixed;
     }
 
-  
+    .container {
+        padding: 0 20px;
+    }
+
+
+
     // === Social ===
 
     .social__img {
@@ -17,28 +22,28 @@
 
         &__text {
             max-width: 330px;
-            line-height: 60px;
+            line-height: 80px;
             position: relative;
             left: 1px;
             top: -150px;
 
             &--1 {
-                font-size: 25px;
+                font-size: 33px;
                 font-weight: 500;
             }
 
             &--2 {
-                font-size: 50px;
+                font-size: 70px;
             }
 
             &--3 {
-                font-size: 40px;
+                font-size: 50px;
                 font-weight: 500;
             }
 
             &--4 {
-                font-size: 50px;
-                letter-spacing: 10px;
+                font-size: 60px;
+                letter-spacing: 20px;
             }
         }
 

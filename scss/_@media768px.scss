@@ -1,0 +1,92 @@
+@media (max-width:  768px) {
+
+    body {
+        background: linear-gradient(153deg, #39c416, #440dda) fixed;
+    }
+    .container {
+        padding: 0 20px;
+    }
+
+// === Logo ===
+.logo {
+    &__img {
+        width: 74px;
+        height: 74px;
+    }
+    &__text {
+        font-size: 62px;
+        padding-left: 15px;
+        }
+    }
+}
+
+// === Social ===
+
+.social__img {
+    height: 46px;
+    width: 46px;
+    top: 15px;
+    margin-left: 15px;
+}
+
+
+// === Content ===
+.content {
+    
+    &__text {
+        max-width: 630px;
+        line-height: 140px;
+        position: relative;
+        left: 80px;
+        top: -50px;
+        &--1 {
+            font-size: 83px;
+            font-weight: 500;
+        }
+        &--2 {
+            font-size: 180px;
+        }
+        &--3 {
+            font-size: 142px;
+            font-weight: 500;
+        }
+        &--4 {
+            font-size: 142px;
+            letter-spacing: 20px;
+        }
+    }
+
+    &__rightMacaron {
+        width: 100%;
+        max-width: 650px;
+
+        &-img {
+            position: relative;
+            top: 50px;
+            left: 100px;
+            // left: -100px;
+            width: 100%;
+            max-width: 700px;
+            // height: 359px;
+        }
+    }
+}
+
+// === Footer ===
+.footer {
+
+    margin-top: 50px;
+    padding-bottom: 20px;
+    }
+
+.sale {
+    &:after {
+        width: 260px;
+        height: 260px;
+        left: -55%;
+        top: -50%;
+        z-index: -1;
+        background-color: rgb(72, 63, 204);
+
+    }
+}

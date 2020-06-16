@@ -1,0 +1,125 @@
+@media (max-width: 414px) {
+
+    body {
+        background: linear-gradient(153deg, #c2cc33, #be294e) fixed;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    // === Logo ===
+    .logo {
+        &__img {
+            width: 50px;
+            height: 50px;
+        }
+
+        &__text {
+            font-size: 42px;
+            padding-left: 15px;
+        }
+    }
+}
+
+// === Social ===
+
+.social__img {
+    display: none;
+}
+
+
+// === Content ===
+.content {
+
+    &__text {
+        max-width: 430px;
+        line-height: 80px;
+        position: relative;
+        left: 1px;
+        top: -100px;
+
+        &--1 {
+            font-size: 43px;
+            font-weight: 500;
+        }
+
+        &--2 {
+            font-size: 90px;
+        }
+
+        &--3 {
+            font-size: 70px;
+            font-weight: 500;
+        }
+
+        &--4 {
+            font-size: 70px;
+            letter-spacing: 20px;
+        }
+    }
+
+    &__rightMacaron {
+        width: 100%;
+        max-width: 650px;
+
+        &-img {
+            position: relative;
+            top: -80px;
+            left: 25px;
+            // left: -100px;
+            width: 100%;
+            max-width: 700px;
+            // height: 359px;
+        }
+    }
+}
+
+// === Footer ===
+.footer {
+
+    margin-top: 10px;
+    padding-bottom: 20px;
+
+    &__bottomMacaron {
+        display: none;
+    }
+    &__contacts {
+        font-size: 12px;
+
+        &-line {
+            letter-spacing: 3px;
+
+            &:after {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 2px;
+                background-color: #fff;
+                margin: 10px auto;
+            }
+        }
+       
+    }
+}
+
+
+.sale {
+    &--big {
+        font-size: 49px;
+        line-height: 50px;
+    }
+
+    &--small {
+        font-size: 15px;
+    }
+    &:after {
+        width: 200px;
+        height: 200px;
+        left: -55%;
+        top: -50%;
+        z-index: -1;
+        background-color: rgb(72, 63, 204);
+
+    }
+}
