@@ -36,7 +36,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    overflow: hidden;
 }
 
 .top {
@@ -73,6 +72,9 @@ body {
 }
 
 // === Social ===
+.social {
+    display: block;
+}
 
 .social__img {
     height: 28px;
@@ -92,11 +94,8 @@ body {
 // === Content ===
 .content {
 
-    // position: relative;
-    // left: -100px;
     &__inner {
         display: flex;
-        // flex-grow: 1;
         flex-wrap: wrap;
         margin-top: 50px;
     }
@@ -150,10 +149,8 @@ body {
         &-img {
             position: relative;
             top: 50px;
-            // left: -100px;
             width: 100%;
             max-width: 700px;
-            // height: 359px;
         }
     }
 }
@@ -163,6 +160,7 @@ body {
 
     margin-top: auto;
     padding-bottom: 20px;
+    overflow: hidden;
 
     &__inner {
         display: flex;
@@ -194,7 +192,6 @@ body {
             font-family: 'Quantico', sans-serif;
             font-weight: 600;
             letter-spacing: 1px;
-
         }
     }
 
@@ -210,16 +207,12 @@ body {
     }
 }
 
-
-
-
 .sale {
     position: relative;
     font-family: 'Roboto', sans-serif;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-
 
     &--big {
         font-size: 59px;
@@ -228,19 +221,6 @@ body {
 
     &--small {
         font-size: 22px;
-    }
-
-    &:after {
-        content: '';
-        position: absolute;
-        background-color: rgb(234, 118, 181);
-        border-radius: 50%;
-        width: 260px;
-        height: 260px;
-        left: -75%;
-        top: -40%;
-        z-index: -1;
-
     }
 }
 

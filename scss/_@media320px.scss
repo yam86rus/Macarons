@@ -1,111 +1,107 @@
- @media (max-width:  320px) {
+ @media (max-width: 320px) {
 
-    body {
-        background: linear-gradient(153deg, #12bddb, #0921a8) fixed;
-    }
+     body {
+         background: linear-gradient(153deg, #12bddb, #0921a8) fixed;
+     }
 
-  
-    // === Social ===
+     // === Social ===
 
-    .social__img {
-        display: none;
-    }
+     .social__img {
+         display: none;
+     }
 
+     // === Content ===
+     .content {
 
-    // === Content ===
-    .content {
+         &__text {
+             max-width: 330px;
+             line-height: 60px;
+             position: relative;
+             left: 1px;
+             top: -150px;
 
-        &__text {
-            max-width: 330px;
-            line-height: 60px;
-            position: relative;
-            left: 1px;
-            top: -150px;
+             &--1 {
+                 font-size: 25px;
+                 font-weight: 500;
+             }
 
-            &--1 {
-                font-size: 25px;
-                font-weight: 500;
-            }
+             &--2 {
+                 font-size: 50px;
+             }
 
-            &--2 {
-                font-size: 50px;
-            }
+             &--3 {
+                 font-size: 40px;
+                 font-weight: 500;
+             }
 
-            &--3 {
-                font-size: 40px;
-                font-weight: 500;
-            }
+             &--4 {
+                 font-size: 50px;
+                 letter-spacing: 10px;
+             }
+         }
 
-            &--4 {
-                font-size: 50px;
-                letter-spacing: 10px;
-            }
-        }
+         &__rightMacaron {
+             width: 100%;
+             max-width: 650px;
 
-        &__rightMacaron {
-            width: 100%;
-            max-width: 650px;
+             &-img {
+                 position: relative;
+                 top: -80px;
+                 left: 25px;
+                 // left: -100px;
+                 width: 100%;
+                 max-width: 700px;
+                 // height: 359px;
+             }
+         }
+     }
 
-            &-img {
-                position: relative;
-                top: -80px;
-                left: 25px;
-                // left: -100px;
-                width: 100%;
-                max-width: 700px;
-                // height: 359px;
-            }
-        }
-    }
+     // === Footer ===
+     .footer {
 
-    // === Footer ===
-    .footer {
+         margin-top: 10px;
+         padding-bottom: 20px;
 
-        margin-top: 10px;
-        padding-bottom: 20px;
+         &__bottomMacaron {
+             display: none;
+         }
 
-        &__bottomMacaron {
-            display: none;
-        }
+         &__contacts {
+             font-size: 12px;
 
-        &__contacts {
-            font-size: 12px;
+             &-line {
+                 letter-spacing: 3px;
 
-            &-line {
-                letter-spacing: 3px;
-
-                &:after {
-                    content: "";
-                    display: block;
-                    width: 100%;
-                    height: 2px;
-                    background-color: #fff;
-                    margin: 10px auto;
-                }
-            }
-
-        }
-    }
+                 &:after {
+                     content: "";
+                     display: block;
+                     width: 100%;
+                     height: 2px;
+                     background-color: #fff;
+                     margin: 10px auto;
+                 }
+             }
+         }
+     }
 
 
-    .sale {
-        &--big {
-            font-size: 39px;
-            line-height: 50px;
-        }
+     .sale {
+         &--big {
+             font-size: 39px;
+             line-height: 50px;
+         }
 
-        &--small {
-            font-size: 13px;
-        }
+         &--small {
+             font-size: 13px;
+         }
 
-        &:after {
-            width: 180px;
-            height: 180px;
-            left: -55%;
-            top: -50%;
-            z-index: -1;
-            background-color: rgb(72, 63, 204);
-
-        }
-    }
-}
+         &:after {
+             width: 180px;
+             height: 180px;
+             left: -55%;
+             top: -50%;
+             z-index: -1;
+             background-color: rgb(72, 63, 204);
+         }
+     }
+ }

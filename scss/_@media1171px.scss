@@ -1,20 +1,15 @@
-@media (max-width: 812px) {
-    body {
-        background: linear-gradient(103deg, #c1c416, #e93d09) fixed;
-    }
-    .container {
-        padding: 0 20px;
-    }
+@media (max-width: 1171px) {
+
 
     // === Logo ===
-
     .logo {
         &__img {
-            width: 74px;
-            height: 74px;
+            width: 94px;
+            height: 94px;
         }
+
         &__text {
-            font-size: 62px;
+            font-size: 72px;
             padding-left: 15px;
         }
     }
@@ -22,52 +17,58 @@
     // === Social ===
 
     .social__img {
-        height: 46px;
-        width: 46px;
+        height: 56px;
+        width: 56px;
         top: 15px;
         margin-left: 15px;
     }
 
+
     // === Content ===
     .content {
         &__text {
-            max-width: 630px;
-            line-height: 140px;
-            position: relative;
-            left: 80px;
-            top: -50px;
+            max-width: 830px;
+            line-height: 160px;
+
             &--1 {
-                font-size: 83px;
+                font-size: 103px;
                 font-weight: 500;
             }
+
             &--2 {
-                font-size: 180px;
+                font-size: 216px;
             }
+
             &--3 {
-                font-size: 142px;
+                font-size: 172px;
                 font-weight: 500;
             }
+
             &--4 {
-                font-size: 142px;
+                font-size: 162px;
                 letter-spacing: 20px;
             }
         }
 
         &__rightMacaron {
             width: 100%;
-            max-width: 650px;
+            max-width: 750px;
+
             &-img {
                 position: relative;
                 top: 50px;
-                left: 100px;
+                left: 200px;
+                // left: -100px;
                 width: 100%;
                 max-width: 700px;
+                // height: 359px;
             }
         }
     }
 
     // === Footer ===
     .footer {
+
         margin-top: 50px;
         padding-bottom: 20px;
     }
@@ -79,7 +80,7 @@
             left: -55%;
             top: -50%;
             z-index: -1;
-            background-color: rgb(72, 63, 204);
         }
     }
 }
+
